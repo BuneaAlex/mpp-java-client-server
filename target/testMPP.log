@@ -1,0 +1,490 @@
+09 Apr 2023 09:38:03,735 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 09:38:03,740 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 09:38:03,741 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 09:38:03,743 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 10:03:30,850 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 10:03:30,855 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 10:03:30,858 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 10:03:30,861 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 10:03:41,550 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 10:03:41,741 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 10:03:41,810 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 10:03:41,819 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=52}])
+09 Apr 2023 10:03:41,820 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-09T10:03:41.749790500
+09 Apr 2023 10:03:41,823 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+09 Apr 2023 18:51:58,217 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 18:51:58,224 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 18:51:58,226 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 18:51:58,228 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 19:07:11,597 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 19:07:11,606 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 19:07:11,608 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 19:07:11,610 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 19:20:10,720 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 19:20:10,726 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 19:20:10,728 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 19:20:10,730 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 19:34:26,785 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 19:34:26,791 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 19:34:26,793 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 19:34:26,795 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 19:44:13,867 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 19:44:13,874 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 19:44:13,875 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 19:44:13,877 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 19:47:16,412 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 19:47:16,418 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 19:47:16,420 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 19:47:16,422 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 19:47:38,522 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 19:47:38,716 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 19:47:39,724 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 19:47:39,736 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=52}])
+09 Apr 2023 19:47:40,762 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-09T19:47:38.725854
+09 Apr 2023 19:47:40,766 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+09 Apr 2023 19:49:17,585 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+09 Apr 2023 19:49:17,586 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=52}])
+09 Apr 2023 19:49:46,633 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 19:49:46,635 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 19:51:24,165 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 19:51:24,171 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 19:51:24,173 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 19:51:24,175 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 19:52:10,215 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 19:52:10,412 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 19:52:11,430 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 19:52:11,441 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=52}])
+09 Apr 2023 19:52:12,460 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-09T19:52:10.422238
+09 Apr 2023 19:52:12,466 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+09 Apr 2023 19:52:19,923 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 19:52:19,926 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 19:52:54,390 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 19:52:54,393 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 19:53:47,091 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 19:53:47,098 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 19:53:47,100 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 19:53:47,102 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 19:54:15,205 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters aaa user2 123
+09 Apr 2023 19:54:15,403 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit
+09 Apr 2023 19:54:22,389 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters aaa user2 123
+09 Apr 2023 19:54:22,391 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit
+09 Apr 2023 21:35:58,119 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 21:35:58,125 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 21:35:58,127 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 21:35:58,129 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 21:36:40,983 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 21:36:41,193 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 21:36:42,208 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 21:36:42,219 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=52}])
+09 Apr 2023 21:36:43,252 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-09T21:36:41.205322500
+09 Apr 2023 21:36:43,254 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+09 Apr 2023 21:37:12,228 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+09 Apr 2023 21:37:12,230 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=52}])
+09 Apr 2023 21:38:13,348 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}
+09 Apr 2023 21:38:13,358 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+09 Apr 2023 21:38:13,358 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+09 Apr 2023 21:38:13,360 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}])
+09 Apr 2023 21:38:13,360 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 8
+09 Apr 2023 21:38:13,362 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2})
+09 Apr 2023 21:38:13,362 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=50}
+09 Apr 2023 21:38:13,369 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+09 Apr 2023 21:38:13,371 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=8, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=50}, client=Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}}
+09 Apr 2023 21:38:13,379 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+09 Apr 2023 21:38:47,083 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 21:38:47,085 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 21:38:54,204 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 21:38:54,206 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 21:38:59,343 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 21:38:59,345 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 21:48:20,866 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 21:48:20,871 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 21:48:20,873 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 21:48:20,875 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 21:48:48,700 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 21:48:48,900 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 21:48:49,924 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 21:48:49,934 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=50}])
+09 Apr 2023 21:48:50,947 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-09T21:48:48.912097700
+09 Apr 2023 21:48:50,949 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+09 Apr 2023 21:49:04,349 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+09 Apr 2023 21:49:04,351 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=50}])
+09 Apr 2023 21:49:24,413 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}
+09 Apr 2023 21:49:24,420 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+09 Apr 2023 21:49:24,420 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+09 Apr 2023 21:49:24,422 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}])
+09 Apr 2023 21:49:24,422 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 9
+09 Apr 2023 21:49:24,424 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1})
+09 Apr 2023 21:49:24,424 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=49}
+09 Apr 2023 21:49:24,430 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+09 Apr 2023 21:49:24,432 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=9, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=49}, client=Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}}
+09 Apr 2023 21:49:24,439 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+09 Apr 2023 22:10:33,196 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 22:10:33,202 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 22:10:33,204 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 22:10:33,206 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 22:10:55,574 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 22:10:55,778 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 22:10:56,785 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 22:10:56,798 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=49}])
+09 Apr 2023 22:10:57,821 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-09T22:10:55.788298300
+09 Apr 2023 22:10:57,823 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+09 Apr 2023 22:11:12,186 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+09 Apr 2023 22:11:12,188 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=49}])
+09 Apr 2023 22:15:03,823 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 22:15:03,829 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 22:15:03,831 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 22:15:03,832 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 22:17:26,702 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 22:17:26,708 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 22:17:26,711 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 22:17:26,712 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 22:24:42,910 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 22:24:43,102 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 22:24:43,117 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 22:24:43,119 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 22:25:29,109 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 22:25:29,115 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 22:25:29,117 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 22:25:29,119 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 22:25:41,657 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 22:25:41,854 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 22:25:42,861 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 22:25:42,875 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=49}])
+09 Apr 2023 22:25:43,892 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-09T22:25:41.583203600
+09 Apr 2023 22:25:43,895 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+09 Apr 2023 22:25:57,538 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+09 Apr 2023 22:25:57,540 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=49}])
+09 Apr 2023 22:26:13,753 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}
+09 Apr 2023 22:26:13,764 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+09 Apr 2023 22:26:13,764 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+09 Apr 2023 22:26:13,765 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}, Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}])
+09 Apr 2023 22:26:13,766 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 10
+09 Apr 2023 22:26:13,767 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1})
+09 Apr 2023 22:26:13,767 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=48}
+09 Apr 2023 22:26:13,774 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+09 Apr 2023 22:26:13,775 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=10, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=48}, client=Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}}
+09 Apr 2023 22:26:13,783 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+09 Apr 2023 22:29:27,704 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 22:29:27,711 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 22:29:27,714 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 22:29:27,719 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 22:30:04,571 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 22:30:04,774 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 22:30:05,797 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 22:30:05,808 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=48}])
+09 Apr 2023 22:30:06,826 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-09T22:30:04.499829100
+09 Apr 2023 22:30:06,828 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+09 Apr 2023 22:30:30,914 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 22:30:30,916 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 22:30:57,423 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+09 Apr 2023 22:30:57,425 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=48}])
+09 Apr 2023 22:31:05,597 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='c', touristNames='t', address='a', noOfSeatsReserved=1}
+09 Apr 2023 22:31:05,608 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+09 Apr 2023 22:31:05,609 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+09 Apr 2023 22:31:05,610 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}, Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}, Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1}])
+09 Apr 2023 22:31:05,611 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 11
+09 Apr 2023 22:31:05,612 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1})
+09 Apr 2023 22:31:05,612 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=47}
+09 Apr 2023 22:31:05,619 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+09 Apr 2023 22:31:05,621 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=11, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=47}, client=Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1}}
+09 Apr 2023 22:31:05,629 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+09 Apr 2023 22:31:55,035 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 22:31:55,038 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 22:32:17,385 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 22:32:17,390 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 22:32:17,393 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 22:32:17,395 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 22:32:33,391 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 22:32:33,590 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 22:32:34,611 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 22:32:34,620 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=47}])
+09 Apr 2023 22:32:35,644 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-09T22:32:33.324563800
+09 Apr 2023 22:32:35,647 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+09 Apr 2023 22:32:45,226 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+09 Apr 2023 22:32:45,228 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=47}])
+09 Apr 2023 22:32:53,230 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='c', touristNames='t', address='a', noOfSeatsReserved=1}
+09 Apr 2023 22:32:53,241 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+09 Apr 2023 22:32:53,241 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+09 Apr 2023 22:32:53,243 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}, Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}, Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=12, name='c', touristNames='t', address='a', noOfSeatsReserved=1}])
+09 Apr 2023 22:32:53,244 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 12
+09 Apr 2023 22:32:53,245 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=12, name='c', touristNames='t', address='a', noOfSeatsReserved=1})
+09 Apr 2023 22:32:53,245 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=46}
+09 Apr 2023 22:32:53,252 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+09 Apr 2023 22:32:53,254 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=12, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=46}, client=Client{id=12, name='c', touristNames='t', address='a', noOfSeatsReserved=1}}
+09 Apr 2023 22:32:53,261 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+09 Apr 2023 22:34:59,457 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+09 Apr 2023 22:34:59,462 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+09 Apr 2023 22:34:59,464 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+09 Apr 2023 22:34:59,465 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+09 Apr 2023 22:35:53,648 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+09 Apr 2023 22:35:53,844 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+09 Apr 2023 22:35:54,855 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 22:35:54,867 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=46}])
+09 Apr 2023 22:35:55,888 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-09T22:35:53.581430900
+09 Apr 2023 22:35:55,890 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+09 Apr 2023 22:36:04,603 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+09 Apr 2023 22:36:04,605 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=46}])
+09 Apr 2023 22:36:11,503 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+09 Apr 2023 22:36:11,505 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=46}])
+09 Apr 2023 22:36:12,512 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+09 Apr 2023 22:36:12,516 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=46}])
+10 Apr 2023 00:00:34,070 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 00:00:34,076 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 00:00:34,078 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 00:00:34,080 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 00:00:58,902 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 00:00:59,120 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 00:01:00,126 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 00:01:00,138 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=46}])
+10 Apr 2023 00:01:01,161 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-10T00:00:58.826414400
+10 Apr 2023 00:01:01,164 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+10 Apr 2023 00:01:24,879 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+10 Apr 2023 00:01:24,881 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=46}])
+10 Apr 2023 00:01:51,501 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='c', touristNames='t', address='adr', noOfSeatsReserved=1}
+10 Apr 2023 00:01:51,511 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+10 Apr 2023 00:01:51,511 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+10 Apr 2023 00:01:51,513 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}, Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}, Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=12, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=13, name='c', touristNames='t', address='adr', noOfSeatsReserved=1}])
+10 Apr 2023 00:01:51,514 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 13
+10 Apr 2023 00:01:51,515 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=13, name='c', touristNames='t', address='adr', noOfSeatsReserved=1})
+10 Apr 2023 00:01:51,515 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=45}
+10 Apr 2023 00:01:51,522 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+10 Apr 2023 00:01:51,524 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=13, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=45}, client=Client{id=13, name='c', touristNames='t', address='adr', noOfSeatsReserved=1}}
+10 Apr 2023 00:01:51,531 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+10 Apr 2023 00:03:02,732 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 00:03:02,734 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 00:03:36,850 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 00:03:36,855 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 00:03:36,857 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 00:03:36,859 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 00:03:58,524 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 00:03:58,726 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 00:03:59,732 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 00:03:59,743 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=45}])
+10 Apr 2023 00:04:00,763 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-10T00:03:58.456034200
+10 Apr 2023 00:04:00,768 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+10 Apr 2023 00:04:11,227 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 00:04:11,229 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 00:04:23,627 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 00:04:23,630 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 09:49:41,278 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 09:49:41,284 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 09:49:41,286 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 09:49:41,288 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 09:50:09,739 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 09:50:09,967 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 09:50:10,985 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 09:50:10,996 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=45}])
+10 Apr 2023 09:50:12,027 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-10T09:50:09.977953500
+10 Apr 2023 09:50:12,030 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+10 Apr 2023 09:51:02,907 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 09:51:02,910 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 10:09:39,539 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 10:09:39,545 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 10:09:39,547 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 10:09:39,555 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 10:13:50,149 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 10:13:50,357 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 10:13:51,382 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 10:13:51,394 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=45}])
+10 Apr 2023 10:13:52,426 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-10T10:13:50.375227500
+10 Apr 2023 10:13:52,428 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+10 Apr 2023 10:30:19,930 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 10:30:19,932 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 10:30:20,941 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 10:30:20,943 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=45}])
+10 Apr 2023 10:30:21,956 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-10T10:30:19.940045100
+10 Apr 2023 10:30:21,959 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+10 Apr 2023 11:07:40,851 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 11:07:40,859 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 11:07:40,862 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 11:07:40,864 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 11:08:00,872 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 11:08:01,109 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 11:08:02,120 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 11:08:02,132 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=45}])
+10 Apr 2023 11:08:03,155 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-10T11:07:53.576142100
+10 Apr 2023 11:08:03,157 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+10 Apr 2023 11:09:45,943 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 123
+10 Apr 2023 11:09:45,946 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit
+10 Apr 2023 11:09:51,351 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 11:09:51,353 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 11:10:33,712 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+10 Apr 2023 11:10:33,714 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=45}])
+10 Apr 2023 11:11:02,346 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='c', touristNames='t', address='a', noOfSeatsReserved=1}
+10 Apr 2023 11:11:02,357 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+10 Apr 2023 11:11:02,358 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+10 Apr 2023 11:11:02,360 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}, Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}, Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=12, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=13, name='c', touristNames='t', address='adr', noOfSeatsReserved=1}, Client{id=14, name='c', touristNames='t', address='a', noOfSeatsReserved=1}])
+10 Apr 2023 11:11:02,360 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 14
+10 Apr 2023 11:11:02,361 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=14, name='c', touristNames='t', address='a', noOfSeatsReserved=1})
+10 Apr 2023 11:11:02,362 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=44}
+10 Apr 2023 11:11:02,368 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+10 Apr 2023 11:11:02,370 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=14, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=44}, client=Client{id=14, name='c', touristNames='t', address='a', noOfSeatsReserved=1}}
+10 Apr 2023 11:11:02,378 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+10 Apr 2023 11:11:49,815 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 11:11:49,817 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 11:41:18,551 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 11:41:18,558 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 11:41:18,560 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 11:41:18,562 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 11:41:40,730 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 11:41:40,924 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 11:41:41,941 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 11:41:41,952 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=44}])
+10 Apr 2023 11:41:42,973 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-10T11:41:31.670554600
+10 Apr 2023 11:41:42,975 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+10 Apr 2023 11:42:44,413 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+10 Apr 2023 11:42:44,415 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=44}])
+10 Apr 2023 11:42:51,968 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='c', touristNames='t', address='a', noOfSeatsReserved=1}
+10 Apr 2023 11:42:51,979 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+10 Apr 2023 11:42:51,979 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+10 Apr 2023 11:42:51,981 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}, Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}, Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=12, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=13, name='c', touristNames='t', address='adr', noOfSeatsReserved=1}, Client{id=14, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=15, name='c', touristNames='t', address='a', noOfSeatsReserved=1}])
+10 Apr 2023 11:42:51,982 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 15
+10 Apr 2023 11:42:51,983 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=15, name='c', touristNames='t', address='a', noOfSeatsReserved=1})
+10 Apr 2023 11:42:51,983 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=43}
+10 Apr 2023 11:42:51,989 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+10 Apr 2023 11:42:51,991 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=15, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=43}, client=Client{id=15, name='c', touristNames='t', address='a', noOfSeatsReserved=1}}
+10 Apr 2023 11:42:51,997 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+10 Apr 2023 11:42:51,997 TRACE org.exampleR.AgentDBRepository 86 findAll - Enter
+10 Apr 2023 11:42:51,999 TRACE org.exampleR.AgentDBRepository 111 findAll - Exit with([Agent{id=1, agencyName='user1', userName='agency1', password='1234'}])
+10 Apr 2023 12:19:22,000 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 12:19:22,002 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 12:20:57,830 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 12:20:57,838 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 12:20:57,839 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 12:20:57,841 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 12:21:10,924 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 12:21:11,115 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 12:21:12,132 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 12:21:12,144 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=43}])
+10 Apr 2023 12:21:13,173 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-10T12:21:03.661660400
+10 Apr 2023 12:21:13,176 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+10 Apr 2023 12:26:20,148 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 12:26:20,154 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 12:26:20,155 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 12:26:20,157 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 12:26:35,386 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 12:26:35,601 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 12:26:36,611 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 12:26:36,622 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=43}])
+10 Apr 2023 12:26:37,641 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters  2023-04-10T12:26:27.834555600
+10 Apr 2023 12:26:37,645 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([])
+10 Apr 2023 12:26:47,247 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+10 Apr 2023 12:26:47,249 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=43}])
+10 Apr 2023 12:26:53,962 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='c', touristNames='t', address='a', noOfSeatsReserved=1}
+10 Apr 2023 12:26:53,971 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+10 Apr 2023 12:26:53,971 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+10 Apr 2023 12:26:53,973 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}, Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}, Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=12, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=13, name='c', touristNames='t', address='adr', noOfSeatsReserved=1}, Client{id=14, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=15, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=16, name='c', touristNames='t', address='a', noOfSeatsReserved=1}])
+10 Apr 2023 12:26:53,974 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 16
+10 Apr 2023 12:26:53,975 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=16, name='c', touristNames='t', address='a', noOfSeatsReserved=1})
+10 Apr 2023 12:26:53,975 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=42}
+10 Apr 2023 12:26:53,981 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+10 Apr 2023 12:26:53,983 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=16, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=42}, client=Client{id=16, name='c', touristNames='t', address='a', noOfSeatsReserved=1}}
+10 Apr 2023 12:26:53,990 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+10 Apr 2023 12:26:53,990 TRACE org.exampleR.AgentDBRepository 86 findAll - Enter
+10 Apr 2023 12:26:53,992 TRACE org.exampleR.AgentDBRepository 111 findAll - Exit with([Agent{id=1, agencyName='user1', userName='agency1', password='1234'}])
+10 Apr 2023 12:26:55,007 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 12:26:55,009 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=42}])
+10 Apr 2023 12:30:25,666 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 12:30:25,668 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 12:30:26,670 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 12:30:26,672 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=42}])
+10 Apr 2023 12:30:34,657 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+10 Apr 2023 12:30:34,658 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=42}])
+10 Apr 2023 12:30:45,578 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='c', touristNames='t', address='a', noOfSeatsReserved=1}
+10 Apr 2023 12:30:45,590 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+10 Apr 2023 12:30:45,590 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+10 Apr 2023 12:30:45,592 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}, Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}, Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=12, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=13, name='c', touristNames='t', address='adr', noOfSeatsReserved=1}, Client{id=14, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=15, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=16, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=17, name='c', touristNames='t', address='a', noOfSeatsReserved=1}])
+10 Apr 2023 12:30:45,593 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 17
+10 Apr 2023 12:30:45,595 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=17, name='c', touristNames='t', address='a', noOfSeatsReserved=1})
+10 Apr 2023 12:30:45,595 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=41}
+10 Apr 2023 12:30:45,602 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+10 Apr 2023 12:30:45,602 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=17, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=41}, client=Client{id=17, name='c', touristNames='t', address='a', noOfSeatsReserved=1}}
+10 Apr 2023 12:30:45,610 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+10 Apr 2023 12:30:45,610 TRACE org.exampleR.AgentDBRepository 86 findAll - Enter
+10 Apr 2023 12:30:45,611 TRACE org.exampleR.AgentDBRepository 111 findAll - Exit with([Agent{id=1, agencyName='user1', userName='agency1', password='1234'}])
+10 Apr 2023 12:30:46,614 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 12:30:46,618 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=41}])
+10 Apr 2023 12:31:29,700 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 12:31:29,706 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 12:31:29,708 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 12:31:29,710 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 12:31:56,076 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 12:31:56,267 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 12:31:57,280 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 12:31:57,292 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=41}])
+10 Apr 2023 12:32:22,021 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 12:32:22,024 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 12:32:26,442 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user2 1234
+10 Apr 2023 12:32:26,444 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=2, agencyName='user2', userName='agency1', password='1234'})
+10 Apr 2023 12:32:27,448 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 12:32:27,452 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=41}])
+10 Apr 2023 12:32:41,538 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+10 Apr 2023 12:32:41,541 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=41}])
+10 Apr 2023 12:32:50,987 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='c', touristNames='t', address='a', noOfSeatsReserved=1}
+10 Apr 2023 12:32:50,997 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+10 Apr 2023 12:32:50,997 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+10 Apr 2023 12:32:51,000 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}, Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}, Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=12, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=13, name='c', touristNames='t', address='adr', noOfSeatsReserved=1}, Client{id=14, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=15, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=16, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=17, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=18, name='c', touristNames='t', address='a', noOfSeatsReserved=1}])
+10 Apr 2023 12:32:51,000 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 18
+10 Apr 2023 12:32:51,001 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=18, name='c', touristNames='t', address='a', noOfSeatsReserved=1})
+10 Apr 2023 12:32:51,002 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=40}
+10 Apr 2023 12:32:51,008 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+10 Apr 2023 12:32:51,010 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=18, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=40}, client=Client{id=18, name='c', touristNames='t', address='a', noOfSeatsReserved=1}}
+10 Apr 2023 12:32:51,016 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+10 Apr 2023 12:32:51,016 TRACE org.exampleR.AgentDBRepository 86 findAll - Enter
+10 Apr 2023 12:32:51,018 TRACE org.exampleR.AgentDBRepository 111 findAll - Exit with([Agent{id=1, agencyName='user1', userName='agency1', password='1234'}, Agent{id=2, agencyName='user2', userName='agency1', password='1234'}])
+10 Apr 2023 12:32:51,029 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 12:32:51,031 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=40}])
+10 Apr 2023 12:32:52,032 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 12:32:52,036 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=40}])
+10 Apr 2023 16:01:29,151 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 16:01:29,157 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 16:01:29,159 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 16:01:29,164 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 16:02:15,029 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 16:02:15,245 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 16:02:16,269 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 16:02:16,280 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=40}])
+10 Apr 2023 16:02:59,610 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 16:02:59,612 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 16:03:05,675 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user2 1234
+10 Apr 2023 16:03:05,677 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=2, agencyName='user2', userName='agency1', password='1234'})
+10 Apr 2023 16:03:06,687 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 16:03:06,692 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=40}])
+10 Apr 2023 16:03:35,313 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user2 1234
+10 Apr 2023 16:03:35,315 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=2, agencyName='user2', userName='agency1', password='1234'})
+10 Apr 2023 16:03:36,321 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 16:03:36,323 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=40}])
+10 Apr 2023 16:03:57,297 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 16:03:57,302 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 16:13:54,128 INFO  org.exampleR.AgentDBRepository 21 <init> - Initializing AgentDBRepository
+10 Apr 2023 16:13:54,136 INFO  org.exampleR.ClientDBRepository 21 <init> - Initializing ClientDBRepository
+10 Apr 2023 16:13:54,138 INFO  org.exampleR.FlightDBRepository 19 <init> - Initializing FlightDBRepository
+10 Apr 2023 16:13:54,142 INFO  org.exampleR.FlightBookingDBRepository 24 <init> - Initializing FlightBookingDBRepository
+10 Apr 2023 16:14:18,097 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 16:14:18,301 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 16:14:19,312 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 16:14:19,327 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=40}])
+10 Apr 2023 16:14:31,589 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user1 1234
+10 Apr 2023 16:14:31,591 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=1, agencyName='user1', userName='agency1', password='1234'})
+10 Apr 2023 16:14:37,367 TRACE org.exampleR.AgentDBRepository 27 findAgentByLoginInformation - Enter  parameters agency1 user2 1234
+10 Apr 2023 16:14:37,370 TRACE org.exampleR.AgentDBRepository 53 findAgentByLoginInformation - Exit with(Agent{id=2, agencyName='user2', userName='agency1', password='1234'})
+10 Apr 2023 16:14:38,374 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 16:14:38,378 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=40}])
+10 Apr 2023 16:14:50,760 TRACE org.exampleR.FlightDBRepository 25 findFlightByDestinationAndDatetime - Enter  parameters Liverpool 2023-03-25T00:00
+10 Apr 2023 16:14:50,762 TRACE org.exampleR.FlightDBRepository 54 findFlightByDestinationAndDatetime - Exit with([Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=40}])
+10 Apr 2023 16:15:02,955 TRACE org.exampleR.ClientDBRepository 92 save - Enter  parameters Client{id=null, name='c', touristNames='t', address='a', noOfSeatsReserved=10}
+10 Apr 2023 16:15:02,967 TRACE org.exampleR.ClientDBRepository 109 save - Exit
+10 Apr 2023 16:15:02,967 TRACE org.exampleR.ClientDBRepository 61 findAll - Enter
+10 Apr 2023 16:15:02,969 TRACE org.exampleR.ClientDBRepository 87 findAll - Exit with([Client{id=1, name='a', touristNames='a', address='a', noOfSeatsReserved=12}, Client{id=2, name='client2', touristNames='t1, t2, t3', address='adr1', noOfSeatsReserved=5}, Client{id=3, name='client3', touristNames='t1,t2', address='adr2', noOfSeatsReserved=20}, Client{id=5, name='client3', touristNames='t1', address='adr3', noOfSeatsReserved=12}, Client{id=6, name='client4', touristNames='t1, t2, t3', address='adr4', noOfSeatsReserved=18}, Client{id=7, name='client5', touristNames='a,b,c', address='adr3', noOfSeatsReserved=3}, Client{id=8, name='client12', touristNames='t', address='adr1', noOfSeatsReserved=2}, Client{id=9, name='ccc', touristNames='ttt', address='adrr', noOfSeatsReserved=1}, Client{id=10, name='ccc', touristNames='ttt', address='adrrr', noOfSeatsReserved=1}, Client{id=11, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=12, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=13, name='c', touristNames='t', address='adr', noOfSeatsReserved=1}, Client{id=14, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=15, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=16, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=17, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=18, name='c', touristNames='t', address='a', noOfSeatsReserved=1}, Client{id=19, name='c', touristNames='t', address='a', noOfSeatsReserved=10}])
+10 Apr 2023 16:15:02,969 TRACE org.exampleR.ClientDBRepository 32 findOne - Enter  parameters 19
+10 Apr 2023 16:15:02,971 TRACE org.exampleR.ClientDBRepository 56 findOne - Exit with(Client{id=19, name='c', touristNames='t', address='a', noOfSeatsReserved=10})
+10 Apr 2023 16:15:02,971 TRACE org.exampleR.FlightDBRepository 191 update - Enter  parameters Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=30}
+10 Apr 2023 16:15:02,979 TRACE org.exampleR.FlightDBRepository 209 update - Exit
+10 Apr 2023 16:15:02,980 TRACE org.exampleR.FlightBookingDBRepository 103 save - Enter  parameters FlightBooking{id_flight=6, id_client=19, flight=Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=30}, client=Client{id=19, name='c', touristNames='t', address='a', noOfSeatsReserved=10}}
+10 Apr 2023 16:15:02,988 TRACE org.exampleR.FlightBookingDBRepository 118 save - Exit
+10 Apr 2023 16:15:02,988 TRACE org.exampleR.AgentDBRepository 86 findAll - Enter
+10 Apr 2023 16:15:02,990 TRACE org.exampleR.AgentDBRepository 111 findAll - Exit with([Agent{id=1, agencyName='user1', userName='agency1', password='1234'}, Agent{id=2, agencyName='user2', userName='agency1', password='1234'}])
+10 Apr 2023 16:15:03,002 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 16:15:03,004 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=30}])
+10 Apr 2023 16:15:03,994 TRACE org.exampleR.FlightDBRepository 59 findAvailableFlights - Enter
+10 Apr 2023 16:15:03,996 TRACE org.exampleR.FlightDBRepository 85 findAvailableFlights - Exit with([Flight{id=4, destination='Paris', date=2023-03-19T11:33:29, airportName='airport1', noOfSeatsLeft=20}, Flight{id=6, destination='Liverpool', date=2023-03-25T00:19:47, airportName='airport2', noOfSeatsLeft=30}])
